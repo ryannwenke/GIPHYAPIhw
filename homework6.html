@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>GIPHY Galore</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="header">
+        <div class="row">
+        <button data-person="mad men" class="btn btn-info">Mad Men</button>
+        <button data-person="breaking bad" class="btn btn-info">Breaking Bad</button>
+        <button data-person="sex and the city" class="btn btn-info">Sex and the City</button>
+        <button data-person="game of thrones" class="btn btn-info">Game of Thrones</button>
+        <button data-person="broad city" class="btn btn-info">Broad City</button>
+        <button data-person="westworld" class="btn btn-info">Westworld</button>
+        <button data-person="stranger things" class="btn btn-info">Stranger Things</button>
+        <button data-person="insecurehbo" class="btn btn-info">Insecure</button>
+        <button data-person="trailer park boys" class="btn btn-info">Trailer Park Boys</button>
+        <button data-person="curb your enthusiam" class="btn btn-info">Curb Your Enthusiam</button>
+        </div>
+    </div>
+
+    <div class ="container">
+        <div class="row">
+        <div class="col-9" id="gifs-appear-here"></div>
+        <div class="col-3" id="search">
+            <form id="gif-form" role="form">
+                <h3>TV Gif Submission</h3>
+                <div class="form-group">
+                    <label for="tv-input">Add a tv show!</label>
+                    <input type="text" id="action-input">
+                </div>
+                <input id="addGif" type="submit" class="btn btn-info">
+            </form>    
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
