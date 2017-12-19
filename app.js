@@ -4,7 +4,7 @@ var topics = ["Mad Men", "Breaking Bad", "Sex and the City", "Game of Thrones", 
 $("button").on("click", function () {
             var tvShow = $(this).attr("data-person");
             var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-                tvShow + "&api_key=dc6zaTOxFJmzC&limit=10";
+                tvShow + "&api_key=fqor9gTRYarj0Qru9ln70brwDZa236HJ&limit=10";
 
             $.ajax({
                 url: queryURL,
